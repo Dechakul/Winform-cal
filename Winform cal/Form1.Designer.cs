@@ -98,6 +98,7 @@
             txtHeight.Name = "txtHeight";
             txtHeight.Size = new Size(100, 23);
             txtHeight.TabIndex = 5;
+            txtHeight.Text = "1";
             // 
             // label5
             // 
@@ -124,6 +125,7 @@
             txtWidth.Name = "txtWidth";
             txtWidth.Size = new Size(100, 23);
             txtWidth.TabIndex = 8;
+            txtWidth.Text = "1";
             // 
             // btnCicleArea
             // 
@@ -151,6 +153,7 @@
             txtHexagonWidth.Name = "txtHexagonWidth";
             txtHexagonWidth.Size = new Size(100, 23);
             txtHexagonWidth.TabIndex = 11;
+            txtHexagonWidth.Text = "1";
             // 
             // btnTriangleArea
             // 
@@ -170,6 +173,7 @@
             btnHexagonArea.TabIndex = 13;
             btnHexagonArea.Text = "คำนวณพื้นที่หกเหลี่ยม";
             btnHexagonArea.UseVisualStyleBackColor = true;
+            btnHexagonArea.Click += btnHexagonArea_Click;
             // 
             // label8
             // 
